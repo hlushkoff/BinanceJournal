@@ -9,9 +9,6 @@ public class Coin {
      @Id
      @GeneratedValue(strategy = GenerationType.AUTO)
      Long id;
-
      String name;
-
      Date updated;
-
 }

@@ -18,7 +18,6 @@ public class Trades {
     private TradeRepository tradeRepository;
 
     public void getTradesCoin(String coin) throws InterruptedException {
-        int delay = 500;
         ///Get all trades for the BUSDT
         List<com.binance.api.client.domain.account.Trade> myTrades = client.getMyTrades(coin + "BUSD");
         if (myTrades.size() > 0) {

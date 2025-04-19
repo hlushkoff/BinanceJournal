@@ -3,16 +3,11 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
-
-
-import java.util.ArrayList;
 @Entity
-//defining class name as Table name
 @Table
 public class User {
 
     @Id
-//defining id as column name
     @Column
     private Long id;
     @Column
